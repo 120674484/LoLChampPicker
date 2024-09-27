@@ -1,6 +1,5 @@
 import tkinter as tk
-import random
-import requests
+import random,requests
 response=requests.get('https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js')
 data = response.json()
 heroes = [item['name'] for item in data['hero']]
