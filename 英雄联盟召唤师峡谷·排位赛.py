@@ -9,7 +9,6 @@ class HeroSelector(QMainWindow):
         main_layout = QVBoxLayout()
         label_layout = QHBoxLayout()
         self.label = QLabel()
-        self.label.setText("")
         self.label.setStyleSheet("font-size: 36px;")
         label_layout.addStretch(1)
         label_layout.addWidget(self.label)
