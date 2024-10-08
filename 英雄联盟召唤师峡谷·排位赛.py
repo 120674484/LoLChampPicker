@@ -6,7 +6,6 @@ class HeroSelector(QMainWindow):
         self.init_ui()
     def init_ui(self):
         self.setWindowTitle('英雄联盟召唤师峡谷·排位赛')
-        self.resize(800, 600)
         main_layout = QVBoxLayout()
         label_layout = QHBoxLayout()
         self.label = QLabel()
